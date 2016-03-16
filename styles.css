@@ -2960,7 +2960,16 @@ span.opened:before {content: "\f068";}
 .products-list .label-product {left: 30px; right: auto;}
 .products-list .label-product.label-indent {left: 60px;}
 
-
+/* Content pages  ================================================================================ */
+.str-content {
+  color: #191919;
+}
+.str-content ul {
+  margin:10px;
+}
+.str-content ul li {
+    list-style: initial;
+  }
 /* Clears ================================================================================ */
 .clear {clear: both; display: block; overflow: hidden; visibility: hidden;width: 0;height: 0;}
 
@@ -3090,11 +3099,11 @@ span.opened:before {content: "\f068";}
 .banner_bot:hover .ban_wrap .shop_now { background:#666; color:#fff; }
 /*.banner_bot:hover .ban_wrap .shop_now:after {	height:102%;	opacity:1; }*/
 
-.banner_bot.bban1 .ban_wrap h2 { color:#000; }
+.banner_bot.bban1 .ban_wrap h2 { color:#fff; }
 .banner_bot.bban2 .ban_wrap h2 { color:#fff; }
 .banner_bot.bban3 .ban_wrap h2 { color:#fff; }
-.banner_bot.bban1 .ban_wrap p { color:#000; }
-.banner_bot.bban2 .ban_wrap p { color:#888; }
+.banner_bot.bban1 .ban_wrap p { color:#fff; }
+.banner_bot.bban2 .ban_wrap p { color:#fff; }
 .banner_bot.bban3 .ban_wrap p { color:#fff; }
 
 .sf-menu li li a,
